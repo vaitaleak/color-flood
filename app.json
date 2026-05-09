@@ -13,9 +13,6 @@
       },
       "package": "com.usefullapps.colorflood",
       "versionCode": 1
-    },
-    "plugins": [
-      "expo-router"
-    ]
+    }
   }
 }
