@@ -48,9 +48,9 @@ function isUniform(grid: number[][]): boolean {
 export default function App() {
   const [sizeIdx, setSizeIdx] = useState(0);
   const size = SIZES[sizeIdx];
-  const [grid, setGrid] = useState<number[][]>(() => createGrid(8));
+  const [grid, setGrid] = useState<number[][]>(() => createGrid(SIZES[0]));
   const [moves, setMoves] = useState(0);
-  const [maxMoves, setMaxMoves] = useState(20);
+  const [maxMoves, setMaxMoves] = useState(() => Math.floor(SIZES[0] * SIZES[0] * 0.25));
   const [won, setWon] = useState(false);
   const [lost, setLost] = useState(false);
   const [time, setTime] = useState(0);
