@@ -1,12 +1,7 @@
 {
-  "expo": {
-    "name": "Color Flood",
-    "slug": "color-flood",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "android": {
-      "package": "com.usefullapps.colorflood",
-      "versionCode": 1
-    }
+  "name": "Color Flood",
+  "displayName": "Color Flood",
+  "android": {
+    "package": "com.usefullapps.colorflood"
   }
 }

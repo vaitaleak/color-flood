@@ -3,7 +3,6 @@ import {
   StyleSheet, View, Text, TouchableOpacity, Dimensions,
   SafeAreaView,
 } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
 
 const { width } = Dimensions.get('window');
 const SIZES = [8, 12, 16];
@@ -102,7 +101,6 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar style="light" />
       <Text style={styles.title}>Color Flood</Text>
 
       <View style={styles.sizes}>
