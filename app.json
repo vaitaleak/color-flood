@@ -1,5 +1,5 @@
 {
-  "name": "Color Flood",
+  "name": "colorflood",
   "displayName": "Color Flood",
   "android": {
     "package": "com.usefullapps.colorflood"
